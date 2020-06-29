@@ -1,19 +1,20 @@
 {
   "version": 2,
-  "builds": [{ "src": "index.js", "use": "@now/node-server" }],
+  "name": "pasar-restfulApi
+  "builds": [{ "src": "app.js", "use": "@now/node-server" }],
   "routes": [
     {
       "src": "/",
-      "dest": "/index.js",
+      "dest": "/app.js",
       "methods": ["GET"]
     },
     {
-      "src": "/user/(.*)", "dest": "/controllers/userEndpoint.js",
+      "src": "/user", "dest": "/app.js",
       "methods": ["GET"]
     },
     {
-      "src": "/controllers/productEndpoint.js",
-      "dest": "/controllers/productEndpoint.js",
+      "src": "/product",
+      "dest": "/app.js",
       "methods": ["GET"]
     }
   ]

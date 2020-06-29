@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "builds": [{ "src": "index.js", "use": "@now/node-server" }],
+  "builds": [{ "src": "server.js", "use": "@now/node-server" }],
   "routes": [
     {
       "src": "/",
-      "dest": "/index.js",
+      "dest": "/server.js",
       "methods": ["GET"]
     },
     {
       "src": "/user",
-      "dest": "/index.js",
+      "dest": "/server.js",
       "methods": ["GET"]
     },
     {
       "src": "/product",
-      "dest": "/index.js",
+      "dest": "/server.js",
       "methods": ["GET"]
     }
   ]

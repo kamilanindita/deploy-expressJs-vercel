@@ -9,12 +9,12 @@
     },
     {
       "src": "/user",
-      "dest": "/index.js",
+      "dest": "/controllers/userEndpoint.js",
       "methods": ["GET"]
     },
     {
       "src": "/product",
-      "dest": "/index.js",
+      "dest": "/controllers/productEndpoint.js",
       "methods": ["GET"]
     }
   ]

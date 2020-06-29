@@ -8,12 +8,12 @@
       "methods": ["GET"]
     },
     {
-      "src": "/user",
+      "src": "/controllers/userEndpoint.js",
       "dest": "/controllers/userEndpoint.js",
       "methods": ["GET"]
     },
     {
-      "src": "/product",
+      "src": "/controllers/productEndpoint.js",
       "dest": "/controllers/productEndpoint.js",
       "methods": ["GET"]
     }

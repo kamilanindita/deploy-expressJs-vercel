@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "pasar-restfulApi
-  "builds": [{ "src": "app.js", "use": "@now/node-server" }],
+  "builds": [{ "src": "/app.js", "use": "@now/node-server" }],
   "routes": [
     {
       "src": "/",

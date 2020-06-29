@@ -8,8 +8,7 @@
       "methods": ["GET"]
     },
     {
-      "src": "/controllers/userEndpoint.js",
-      "dest": "/controllers/userEndpoint.js",
+      "src": "/user/(.*)", "dest": "/controllers/userEndpoint.js",
       "methods": ["GET"]
     },
     {
